@@ -10,6 +10,12 @@ body {
 	margin: 0 auto;
 }
 
+#pixel-it {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+
 .vertical-numbers {		
 }
 
@@ -33,6 +39,11 @@ body {
 	-moz-box-shadow: 0px 0px 2.5px 0px rgba(0,0,0,0.5);
 	box-shadow: 0px 0px 2.5px 0px rgba(0,0,0,0.5);
 }
+
+.margin-top-12 {
+	margin-top: 12px;
+}
+
 
 .margin-top-32 {
 	margin-top: 32px;
@@ -59,7 +70,22 @@ body {
 }
 
 .center {
+	margin: 0 auto;
 	text-align: center;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.button-tool {
+	margin: 5px;
+	padding: 10px;
+	border-radius: 1px;
+	text-align: center;
+	border: 2px solid #252525;
+	width: 32px;
+	height: 32px;
 }
 
 .horizontal-line {
@@ -79,6 +105,7 @@ body {
 }
 
 .left-box {
+	max-height: 542px;
 	background-color: #dbdbdb;
 	margin-left: 25px;
 	margin-right: 10px;
@@ -87,12 +114,13 @@ body {
 .center-box {
 	text-align: center;
 	font-size: 20px;
-	background-color: #d8d7d2;
+	background-color: #d8d8d8;
 	margin-left: 10px;
 	margin-right: 10px;
 }
 
 .right-box {
+	max-height: 560px;
 	background-color: #dbdbdb;
 	margin-left: 10px;
 	margin-right: 25px;
@@ -105,13 +133,17 @@ body {
 }
 
 .color-box {
-	height: 50px;
-	width: 50px;
-	border: 1px solid #232323;
+	height: 31px;
+	width: 31px;
+	border: 1px solid #252525;
+}
+
+.pixel-box:hover {
+	background-color: #c4c4c4
 }
 
 .current-color-box {
-	margin: 0 auto;
+	margin: 5px;
 	height: 50px;
 	width: 50px;
 	border: 1px solid #232323;
