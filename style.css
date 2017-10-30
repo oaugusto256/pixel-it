@@ -9,6 +9,16 @@ body {
 	margin: 0 auto;
 }
 
+a:link {
+	text-decoration: none;
+}
+
+#download {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+
 #pixel-it {
 	display: flex;
 	align-items: center;
@@ -40,6 +50,10 @@ body {
 	margin-top: 12px;
 }
 
+.margin-5 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
 
 .margin-top-32 {
 	margin-top: 32px;
@@ -85,6 +99,18 @@ body {
 	height: 32px;
 }
 
+.tool-box:hover {
+	background-color: #252525;
+		color: #bcbcbc;
+}
+
+.tool-info {
+	margin: 0 auto;
+	padding: 10px 5px 10px 5px;
+	border: 2px solid #252525;
+	max-width: 180px;
+}
+
 .horizontal-line {
 	margin-top: 0px;
 	margin-bottom: 5px;
@@ -103,6 +129,7 @@ body {
 
 .left-box {
 	max-height: 540px;
+	max-width: 190px;
 	background-color: #dbdbdb;
 	margin-left: 25px;
 	margin-right: 10px;
@@ -118,6 +145,7 @@ body {
 
 .right-box {
 	max-height: 540px;
+	max-width: 165px;
 	background-color: #dbdbdb;
 	margin-left: 10px;
 	margin-right: 25px;
@@ -135,16 +163,68 @@ body {
 	border: 1px solid #252525;
 }
 
-.pixel-box:hover {
-	background-color: #a5a5a5;
+.collor-pallete-box {
+	border: 2px solid #252525;
 }
 
-.current-color-box {
-	margin: 5px;
-	height: 25px;
-	width: 25px;
-	border: 1px solid #232323;
+.status-box {
+	padding: 10px;
+	border: 2px solid #252525;
 }
+
+.social-box {
+	text-align: center;
+	padding: 10px;
+	border: 2px solid #252525;
+}
+
+.share-box {
+	text-align: center;
+	padding: 10px;
+	border: 2px solid #252525;
+}
+
+.share-button {
+	font-size: 	15px;
+	border-radius: 2px;
+	border: 2px solid #252525;
+	color: #151515;
+	width: 90px;
+	margin: 2px;
+	padding: 10px;
+}
+
+.share-button:hover {
+	background-color: #252525;
+	color: #bcbcbc;
+}
+
+.social-icon {
+	color: #151515;
+	font-size: 23px;
+	padding: 1px;
+}
+
+/*.pixel-box:hover {
+	background-color: #a5a5a5 !important;
+}*/
+
+.current-color-box {
+	margin: 0 auto;
+	height: 35px;
+	width: 35px;
+	border: 2px solid #232323;
+}
+
+.current-tool {
+	text-align: center;
+	margin: 0 auto;
+	height: 35px;
+	width: 35px;
+	border: 2px solid #232323;
+}
+
+
 
 .red {
 	background-color: #EE204D;
