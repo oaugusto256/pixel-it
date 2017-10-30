@@ -1,7 +1,6 @@
 html {
 	min-height: 100%;
 	width: 100%;
-
 	background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 	font-family: 'VT323', monospace;
 }
@@ -16,16 +15,13 @@ body {
     justify-content: center;
 }
 
-.vertical-numbers {		
-}
-
 .logo	{
 	text-align: center;
-	font-size: 75px;
+	font-size: 50px;
 	letter-spacing: 2px;
-	padding: 20px;
+	padding: 7.5px;
 	color: #fff;
-	background-color: grey;
+	background-color: #252525;
 }
 
 .shadow-box {
@@ -71,14 +67,15 @@ body {
 
 .center {
 	margin: 0 auto;
-	text-align: center;
 }
 
 .text-center {
+	margin-top: 10px;
+	margin-bottom: 5px;
 	text-align: center;
 }
 
-.button-tool {
+.tool-box {
 	margin: 5px;
 	padding: 10px;
 	border-radius: 1px;
@@ -105,7 +102,7 @@ body {
 }
 
 .left-box {
-	max-height: 542px;
+	max-height: 540px;
 	background-color: #dbdbdb;
 	margin-left: 25px;
 	margin-right: 10px;
@@ -120,7 +117,7 @@ body {
 }
 
 .right-box {
-	max-height: 560px;
+	max-height: 540px;
 	background-color: #dbdbdb;
 	margin-left: 10px;
 	margin-right: 25px;
@@ -139,13 +136,13 @@ body {
 }
 
 .pixel-box:hover {
-	background-color: #c4c4c4
+	background-color: #a5a5a5;
 }
 
 .current-color-box {
 	margin: 5px;
-	height: 50px;
-	width: 50px;
+	height: 25px;
+	width: 25px;
 	border: 1px solid #232323;
 }
 
