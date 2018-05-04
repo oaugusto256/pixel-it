@@ -8,7 +8,7 @@ Web app to create, share or download pixel art around the web.
 
 ## Installation
 
-Clone the repository and see the solved problems with any text editor.
+Clone the repository and move to the project folder.
 
 ## Using
 
