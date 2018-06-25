@@ -24,4 +24,4 @@ I will be glad to listen any constructive feedback. Please, send an email to me:
 
 ## License
 
-MIT © 2018
+GPL GNU 3.0
